@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    margin: 0%;
+    background-color:rgb(58, 57, 57);
+}
+
+.menu li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.menu li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+} 
+
+.menu li:hover{
+    background-color: rgb(36, 35, 35);
+    cursor: pointer;
+    padding: 0.1px;
+}
+
+#middle{
+    background-color: rgb(238, 238, 252);
+    /* padding: 100px; */
+}
+
+.pic{
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+
+.searchBar{
+    margin-top: 12px;
+    padding: 7px;
+    border-radius: 7px;
+    border: none; 
+    float: right;
+}
+
+.searchButton{
+    background-color: rgb(253, 54, 54);
+    padding: 9px 7px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin: 10px 4px ;                  /*  uppar bech ki space */
+}
+.searchButton:hover{
+    background-color: red;
+}
+
+
+.row{
+    margin:20px 120px;
+}
+
+.coloumn{
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+.card{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 18px;
+    background-color: #ccc;
+}
+
+.rowButton{
+    color: white;
+    background-color: rgb(73, 73, 250);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 82, 82);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+}
+
+.contactButton{
+    color: white;
+    background-color: rgb(211, 114, 114);
+    border: none;
+    border-radius: 3px;
+    line-height: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+
+/* more videos */
+.link a{                          
+    color: rgb(77, 77, 240);
+    /* float: right; */
+    /* text-decoration: none; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 47px ;
+    font-size: 18px;
+}
+
+.latest{
+    background-color: rgb(232, 232, 241);
+}
+
+.headings{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: rgb(58, 57, 57);
+    margin-left: 0.1rem ;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { background-color: rgb(58, 57, 57);}
+    49% {background-color: rgb(58, 57, 57);}
+    50% { background-color: transparent; }
+    99% {background-color: transparent;  }
+    100% { background-color: rgb(58, 57, 57); }
+}
